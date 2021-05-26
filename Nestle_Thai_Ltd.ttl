@@ -4,7 +4,6 @@
 @prefix  xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix  foaf: <http://xmlns.com/foaf/0.1/>.
 @prefix  halalv: <http://halal.addi.is.its.ac.id/halalv.ttl#>.
-@prefix  halalf: <http://halal.addi.is.its.ac.id/foodproducts/>.
 @prefix  halali: <http://halal.addi.is.its.ac.id/ingredients/>.
 @prefix  halalc: <http://halal.addi.is.its.ac.id/certificates/>.
 @prefix  halals: <http://halal.addi.is.its.ac.id/sources/>.
