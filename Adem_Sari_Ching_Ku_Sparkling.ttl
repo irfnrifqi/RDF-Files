@@ -1,0 +1,28 @@
+@prefix  rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix  rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix  owl: <http://www.w3.org/2002/07/owl#>.
+@prefix  xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix  foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix  halalv: <http://halal.addi.is.its.ac.id/halalv.ttl#>.
+@prefix  halalf: <http://halal.addi.is.its.ac.id/foodproducts/>.
+@prefix  halali: <http://halal.addi.is.its.ac.id/ingredients/>.
+@prefix  halalc: <http://halal.addi.is.its.ac.id/certificates/>.
+@prefix  halals: <http://halal.addi.is.its.ac.id/sources/>.
+@prefix  halalm: <http://halal.addi.is.its.ac.id/manufactures/>.
+@prefix  food: <http://purl.org/foodontology#> .
+@prefix  foodlirmm: <http://data.lirmm.fr/ontologies/food#> .
+@prefix  gr: <http://purl.org/goodrelations/v1#> . 
+@prefix  dbr: <http://dbpedia.org/resource/> .
+
+halalf:Adem_Sari_Ching_Ku_Sparkling a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "85";
+	rdfs:label "adem sari ching ku sparkling";
+	gr:hasManufacturer halalm:Pt_Bandeng_Juwana .
+
+halalf:Adem_Sari_Ching_Ku_Sparkling foodlirmm:certificate halalc:15100045840320 .
+
+halalf:Adem_Sari_Ching_Ku_Sparkling food:containsIngredient halali:air_berkarbonat,halali:air,halali:gula,halali:jus_lemon,halali:perisa_identik_alami_jeruk_lemon,halali:asam_sitrat,halali:asam_malat,halali:ekstrak_rumput_gandum,halali:kalium_sorbat,halali:ekstrak_cincau,halali:ekstrak_krisantemum .
+
+halalf:Adem_Sari_Ching_Ku_Sparkling food:ingredientsListAsText "air berkarbonat", "air", "gula", "jus lemon", "perisa identik alami jeruk lemon", "asam sitrat", "asam malat", "ekstrak rumput gandum", "kalium sorbat", "ekstrak cincau", "ekstrak krisantemum" .
+

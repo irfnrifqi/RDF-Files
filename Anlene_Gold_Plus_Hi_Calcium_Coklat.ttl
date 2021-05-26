@@ -1,0 +1,28 @@
+@prefix  rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix  rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix  owl: <http://www.w3.org/2002/07/owl#>.
+@prefix  xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix  foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix  halalv: <http://halal.addi.is.its.ac.id/halalv.ttl#>.
+@prefix  halalf: <http://halal.addi.is.its.ac.id/foodproducts/>.
+@prefix  halali: <http://halal.addi.is.its.ac.id/ingredients/>.
+@prefix  halalc: <http://halal.addi.is.its.ac.id/certificates/>.
+@prefix  halals: <http://halal.addi.is.its.ac.id/sources/>.
+@prefix  halalm: <http://halal.addi.is.its.ac.id/manufactures/>.
+@prefix  food: <http://purl.org/foodontology#> .
+@prefix  foodlirmm: <http://data.lirmm.fr/ontologies/food#> .
+@prefix  gr: <http://purl.org/goodrelations/v1#> . 
+@prefix  dbr: <http://dbpedia.org/resource/> .
+
+halalf:Anlene_Gold_Plus_Hi_Calcium_Coklat a foodlirmm:FoodProduct;
+	a food:Food;
+	foodlirmm:code "731";
+	rdfs:label "anlene gold plus hi-calcium coklat";
+	gr:hasManufacturer halalm:Pt_Fonterra_Brands_Indonesia .
+
+halalf:Anlene_Gold_Plus_Hi_Calcium_Coklat foodlirmm:certificate halalc:00040048380708 .
+
+halalf:Anlene_Gold_Plus_Hi_Calcium_Coklat food:containsIngredient halali:susu_bubuk_tanpa_lemak,halali:susu_bubuk,halali:sukrosa,halali:bubuk_cokelat,halali:kalsium_karbonat,halali:whey_protein,halali:perisa_cokelat,halali:pengemulsi_lesitin_kedelai,halali:garam,halali:kalsium,halali:kalsium_karbonat,halali:gum_arab,halali:dekstrin,halali:vitamin_d,halali:antioksidan_alfalfa_tokoferol,halali:perisa_malt,halali:vitamin_a,halali:antioksidan_alfalfa_tokoferol .
+
+halalf:Anlene_Gold_Plus_Hi_Calcium_Coklat food:ingredientsListAsText "susu bubuk tanpa lemak", "susu bubuk", "sukrosa", "bubuk cokelat", "kalsium karbonat", "whey protein", "perisa cokelat", "pengemulsi lesitin kedelai", "garam", "kalsium", "kalsium karbonat", "gum arab", "dekstrin", "vitamin d", "antioksidan alfalfa tokoferol", "perisa malt", "vitamin a", "antioksidan alfalfa tokoferol" .
+
